@@ -1,6 +1,7 @@
 <script lang="ts">
   import src from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
+  import Nested from './lib/Nested.svelte';
 
   let name = 'world';
 </script>
@@ -10,6 +11,7 @@
   <h1>Hello {name.toUpperCase()}</h1>
 
   <Counter />
+  <Nested />
 
 </main>
 
