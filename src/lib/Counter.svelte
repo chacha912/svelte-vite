@@ -5,6 +5,14 @@
   }
 
   $: doubled = count * 2;
+
+  $: {
+    console.log('count', count);
+    if (count >= 10) {
+      alert('count is dangerously high!');
+      count = 9;
+    }
+  }
 </script>
 
 <button on:click={increment}>
