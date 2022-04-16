@@ -1,4 +1,9 @@
-<p>This is a paragraph.</p>
+<script>
+	let string = `this string contains some <strong>HTML!!!</strong>`;
+</script>
+
+<p>This is a paragraph. </p>
+<p>{@html string}</p>
 
 <style>
 	p {
