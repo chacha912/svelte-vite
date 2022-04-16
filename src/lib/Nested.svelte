@@ -1,9 +1,10 @@
 <script>
 	let string = `this string contains some <strong>HTML!!!</strong>`;
+    export let name = 'paragraph';
 </script>
 
-<p>This is a paragraph. </p>
-<p>{@html string}</p>
+<p>This is a {name}. </p>
+<!-- <p>{@html string}</p> -->
 
 <style>
 	p {

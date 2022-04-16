@@ -2,9 +2,16 @@
   import src from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
   import Nested from './lib/Nested.svelte';
+  import Info from './lib/Info.svelte';
   import Array from './lib/Array.svelte';
   
   let name = 'world';
+  const pkg = {
+		name: 'svelte',
+		version: 3,
+		speed: 'blazing',
+		website: 'https://svelte.dev'
+	};
 </script>
 
 <main>
@@ -13,6 +20,8 @@
 
   <Counter />
   <Nested />
+  <Nested name={'world'}/>
+  <Info {...pkg} />
   <Array />
 
 </main>
