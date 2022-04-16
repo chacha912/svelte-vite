@@ -2,7 +2,8 @@
   import src from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
   import Nested from './lib/Nested.svelte';
-
+  import Array from './lib/Array.svelte';
+  
   let name = 'world';
 </script>
 
@@ -12,6 +13,7 @@
 
   <Counter />
   <Nested />
+  <Array />
 
 </main>
 
