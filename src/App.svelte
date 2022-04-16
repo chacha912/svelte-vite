@@ -1,12 +1,12 @@
 <script lang="ts">
-  import logo from './assets/svelte.png'
+  import src from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
 
   let name = 'world';
 </script>
 
 <main>
-  <img src={logo} alt="Svelte Logo" />
+  <img {src} alt="Svelte Logo" />
   <h1>Hello {name.toUpperCase()}</h1>
 
   <Counter />
