@@ -39,13 +39,13 @@
   }
 
   img {
-    height: 16rem;
-    width: 16rem;
+    height: 1rem;
+    width: 1rem;
   }
 
   h1 {
     color: #ff3e00;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 100;
     line-height: 1.1;
     margin: 2rem auto;

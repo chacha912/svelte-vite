@@ -10,6 +10,6 @@
 	p {
 		color: purple;
 		font-family: 'Comic Sans MS', cursive;
-		font-size: 2em;
+		font-size: 1em;
 	}
 </style>

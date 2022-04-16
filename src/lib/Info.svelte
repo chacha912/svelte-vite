@@ -10,3 +10,9 @@
 	Download version {version} from <a href="https://www.npmjs.com/package/{name}">npm</a>
 	and <a href={website}>learn more here</a>
 </p>
+
+<style>
+	p {
+		font-size: 0.5rem;
+	}
+</style>
