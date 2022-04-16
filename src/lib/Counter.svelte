@@ -3,11 +3,15 @@
   const increment = () => {
     count += 1
   }
+
+  $: doubled = count * 2;
 </script>
 
 <button on:click={increment}>
   Clicks: {count}
 </button>
+<p>{count} doubled is {doubled}</p>
+
 
 <style>
   button {
