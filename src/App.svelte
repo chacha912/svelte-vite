@@ -13,6 +13,11 @@
 		speed: 'blazing',
 		website: 'https://svelte.dev'
 	};
+
+  function handleMessage(event) {
+		alert(event.detail.text);
+	}
+
 </script>
 
 <main>
@@ -24,7 +29,7 @@
   <Nested name={'world'}/>
   <Info {...pkg} />
   <Array />
-  <Event />
+  <Event on:message={handleMessage}/>
 
 </main>
 
