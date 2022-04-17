@@ -6,6 +6,7 @@
   import Array from './lib/Array.svelte';
   import Event from './lib/Event.svelte';
   import CustomButton from './lib/CustomButton.svelte';
+  import Form from './lib/Form.svelte';
   
   let name = 'world';
   const pkg = {
@@ -36,6 +37,7 @@
   <Array />
   <Event on:message={handleMessage}/>
   <CustomButton on:click={handleClick}/>
+  <Form />
 
 </main>
 
