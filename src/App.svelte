@@ -4,6 +4,7 @@
   import Nested from './lib/Nested.svelte';
   import Info from './lib/Info.svelte';
   import Array from './lib/Array.svelte';
+  import Event from './lib/Event.svelte';
   
   let name = 'world';
   const pkg = {
@@ -23,6 +24,7 @@
   <Nested name={'world'}/>
   <Info {...pkg} />
   <Array />
+  <Event />
 
 </main>
 
