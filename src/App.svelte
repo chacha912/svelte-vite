@@ -5,6 +5,7 @@
   import Info from './lib/Info.svelte';
   import Array from './lib/Array.svelte';
   import Event from './lib/Event.svelte';
+  import CustomButton from './lib/CustomButton.svelte';
   
   let name = 'world';
   const pkg = {
@@ -16,6 +17,10 @@
 
   function handleMessage(event) {
 		alert(event.detail.text);
+	}
+
+  function handleClick() {
+		alert('Button Clicked');
 	}
 
 </script>
@@ -30,6 +35,7 @@
   <Info {...pkg} />
   <Array />
   <Event on:message={handleMessage}/>
+  <CustomButton on:click={handleClick}/>
 
 </main>
 
